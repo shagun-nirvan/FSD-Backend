@@ -1,7 +1,4 @@
-const fs= require('fs');
+const fs=require('fs');
+const data=fs.readFileSync('./data.txt','utf8');
 
-//read the data from the file
-fs.readFile("./data.txt","utf8",(err,data) => {
-    if(err) throw err;
-    console.log("Data read from file",data);
-})
+console.log(data);
