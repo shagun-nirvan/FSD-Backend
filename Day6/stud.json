@@ -1,0 +1,32 @@
+[
+  {
+    "student name": "shagun nirvan",
+    "id": 1,
+    "class": 12,
+    "section": "A"
+  },
+  {
+    "student name": "sahil verma",
+    "id": 2,
+    "class": 12,
+    "section": "A"
+  },
+  {
+    "student name": "saurabh verma",
+    "id": 3,
+    "class": 12,
+    "section": "C"
+  },
+  {
+    "student name": "abc pqr",
+    "class": 12,
+    "section": "B",
+    "id": 4
+  },
+  {
+    "student name": "xyz klm",
+    "class": 2,
+    "section": "C",
+    "id": 5
+  }
+]
