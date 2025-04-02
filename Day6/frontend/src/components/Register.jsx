@@ -11,7 +11,6 @@ const Register = () => {
     }
   return (
     <div>
-      <h1>Return</h1>
              <form onSubmit={handleReg}>
                 name<input type='text' placeholder='Name' name='name' required />
                 age<input type='text' placeholder='Name' name='age' required />
