@@ -6,7 +6,7 @@ const [books, setBooks]= useState([])
 
 const handleView = async() => {
   try {
-    const res = await axios.get('http://localhost:9000/books')
+    const res = await axios.get('https://fsd-backend-6-upkb.onrender.com/books')
     setBooks(res.data)
   } catch (err){
     console.log(err);

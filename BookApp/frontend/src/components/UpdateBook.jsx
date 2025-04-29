@@ -49,7 +49,7 @@ const UpdateBook = () => {
   const handleUpdate = async (e) => {
     e.preventDefault();
     try {
-      await axios.put(`http://localhost:9000/books/${selectedBookId}`, formData);
+      await axios.put(`https://fsd-backend-6-upkb.onrender.com/books/${selectedBookId}`, formData);
       alert('Book updated successfully');
       fetchBooks(); // Refresh list
     } catch (error) {
