@@ -68,6 +68,13 @@ app.delete('/books/:id', async (req, res) => {
     }
   });
 
+  app.put('/books/:id',async (req,res)=>{
+    const book=await Book.findByIdAndUpdate(req.params.id,req.body)
+    if(!book)
+        return res.status(404).send('Book Not Found')
+    res.json(book)
+})
+
 app.listen(9000,()=>{
     console.log('server is running on port 9000')
     
